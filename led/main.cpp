@@ -19,6 +19,7 @@ int main(void)
 		PORTD ^= (1 << 0);
 		_delay_ms(1000);
 		p->WyslijString("test\r\n");
+		p->WyslijString("rotfl");
 	}
 }
 
